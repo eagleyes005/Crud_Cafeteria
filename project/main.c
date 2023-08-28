@@ -1,8 +1,16 @@
 #include "global.h"
-#include "functions.c"
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
+
+    //Criação do array para receber os produtos antes do sistema entrar em loop
+    //TODO alocar dinamicamente este array
+    int productsQty = 0, *ptrProductsQty;
+    ptrProductsQty = &productsQty;
+
+    productStruct productsArray[10], *ptrProductsArray;
+    ptrProductsArray = productsArray;
+
     int running = 1;
     while (running == 1) {
         int selector, *ptrSelector;
@@ -11,7 +19,7 @@ int main() {
         system("cls"); //Limpeza do terminal
 
         //Menu principal
-        printf("Bem vindo ao sistema de cadastro de queijos e vinhos!\n\n");
+        printf("Bem vindo ao sistema de cadastro de produtos!\n\n");
 
         printf("-------------- MENU --------------\n");
         printf("1 - Consultar Produtos\n");
@@ -26,24 +34,24 @@ int main() {
 
         switch (*ptrSelector)
         {
-                //Case para cadastrar produtos
+                //Case para listar produtos
             case 1:
-                registerProduct();
+                listProduct(ptrProductsQty, ptrProductsArray);
                 break;
 
-                //Case para listar produtos
+                //Case para cadastrar produtos
             case 2:
-                listProduct();
+                registerProduct(ptrProductsQty, ptrProductsArray);
                 break;
 
                 //Case para editar produtos
             case 3:
-                editProduct();
+                //editProduct();
                 break;
 
                 //Case para excluir produtos
             case 4:
-                deleteProduct();
+                //deleteProduct();
                 break;
 
                 //Case para encerrar o programa
