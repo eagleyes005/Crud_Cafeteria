@@ -1,47 +1,54 @@
 #include "global.h"
 
-//Função para deleter produtos
-void deleteProduct(int productType) {
-    FILE *file;
-    char filename[20];
-    int lotToDelete;
+// Função para excluír produtos
+void deleteProduct(const int *productsQty, productStruct *productsArray) {
+    int toDelete, index = -1, switchOption;
 
-    if (productType == 1) {
-        strcpy(filename, "data1.bin");
-    } else if (productType == 2) {
-        strcpy(filename, "data2.bin");
-    }
+    // Input para escolher qual item do array será excluído
+    printf("Digite o código do produto para excluir:\n");
+    scanf("%d", &toDelete);
 
-    file = fopen(filename, "rb"); //Abrir o arquivo data em modo de leitura
-
-    printf("Digite o número do lote para excluir: ");
-    scanf("%d", &lotToDelete); //NOLINT(cert-err34-c) <- remove o aviso do "scanf"
-
-    FILE* tempFile = fopen("temp.bin", "wb"); //Abrir o arquivo data em modo de escrita
-    if (tempFile == NULL) {
-        printf("Erro ao criar arquivo temporário!\n");
-        fclose(file);
-        return;
-    }
-
-    //Loop para copiar os dados para o arquivo temporário
-    productStruct product;
-    while (fread(&product, sizeof(product), 1, file) == 1) {
-        if (product.lot != lotToDelete) {
-            fwrite(&product, sizeof(product), 1, tempFile);
+    // Loop for para encontrar o endereço do item a ser excluído
+    for (int i = 0; i < *productsQty; ++i) {
+        if (productsArray[i].cod == toDelete) {
+            index = i; // Quando o mesmo é encontrado este é salvo na variável index para uso posterior
+            break;
         }
     }
 
-    //Fecha os arquivos
-    fclose(file);
-    fclose(tempFile);
+    // Verifica se o input existe no array
+    if (index == -1) {
+        printf("Produto não encontrado!\n");
+        sleep(2);
+        return;
+    }
 
-    //Remove o arquivo original
-    remove(filename);
+    // Menu de confirmação da exclusão
+    printf("Tem certeza?\n");
+    printf("1 - Sim\n");
+    printf("0 - Não\n");
+    scanf("%d", &switchOption);
 
-    //Renomeia o arquivo temporário para o nome do arquivo original
-    rename("temp.bin", filename);
+    // Switch-case para excluir ou não o item
+    switch (switchOption) {
+        case 1:
+            // A exclusão é somente a transformação do título para "EXCLUÍDO" e a mudança do preço
+            // Em arrays é difícil de se eliminar um dado, pois estes são armazenados de forma contígua na memória.
+            sprintf(productsArray[index].name, "EXCLUÍDO");
+            productsArray[index].price = -1,00;
+            productsArray[index].amount = -1;
+            printf("Produto excluído com sucesso!\n");
+            sleep(2);
+            break;
 
-    printf("Produto excluído com sucesso!\n");
-    sleep(2);
+        case 0:
+            printf("Cancelando...\n");
+            sleep(2);
+            break;
+
+        default:
+            printf("Opção inválida!\n");
+            sleep(2);
+            break;
+    }
 }

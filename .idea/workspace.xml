@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -21,71 +21,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7358bfa0-a3c3-42e0-8459-e1097c7a1c1d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Projeto_Sistema_Queijos_e_Vinhos.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/reply/cache-v2-81d3765455911ae3473a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4f2f2838f3790b101289.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-57db00281116e244fe77.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-28T13-22-56-0788.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/reply/target-Crud_Cafeteria-Debug-08fcfa6458c5a2639741.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-cf4b9c8319f55f4a03b1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.ninja_deps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/.ninja_log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/compiler_depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/compiler_depend.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/linkLibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/main.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/main.c.obj.d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/Crud_Cafeteria.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/Crud_Cafeteria.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/Projeto_Sistema_Queijos_e_Vinhos.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/Projeto_Sistema_Queijos_e_Vinhos.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/build.ninja" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/deleteProduct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/editProduct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/functions.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/global.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/listProduct.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/main.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/registerProduct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-5a079d73373480d4bc97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9dded505b83c52e667d6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-da5ff9cdc1f88cce8bac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-29T00-03-49-0138.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Crud_Cafeteria-Debug-19095025848b04246b95.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-feae2582097bb8a06420.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Crud_Cafeteria.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Crud_Cafeteria.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleteProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/deleteProduct.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/editProduct.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.h" beforeDir="false" afterPath="$PROJECT_DIR$/global.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/listProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/listProduct.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registerProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/registerProduct.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +75,10 @@
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="1.3" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2UdRMHkMMOofzFQMlkt5COWPh7v" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -115,12 +87,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -129,12 +103,12 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="Crud_Cafeteria" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Crud_Cafeteria" TARGET_NAME="Crud_Cafeteria" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Crud_Cafeteria" RUN_TARGET_NAME="Crud_Cafeteria">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Crud_Cafeteria" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Crud_Cafeteria" TARGET_NAME="Crud_Cafeteria" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Crud_Cafeteria" RUN_TARGET_NAME="Crud_Cafeteria">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -149,10 +123,17 @@
       <option name="presentableId" value="Default" />
       <updated>1693267421367</updated>
       <workItem from="1693267424399" duration="308000" />
+      <workItem from="1693316389111" duration="8314000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
   </component>
 </project>

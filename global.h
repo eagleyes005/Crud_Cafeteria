@@ -24,6 +24,6 @@ typedef struct {
 #include "listProduct.c"
 #include "registerProduct.c"
 #include "editProduct.c"
-//#include "deleteProduct.c"
+#include "deleteProduct.c"
 #endif
 //Fim da biblioteca GLOBAL.H
