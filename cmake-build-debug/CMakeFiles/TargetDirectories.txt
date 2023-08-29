@@ -1,0 +1,3 @@
+C:/Programação/Repositorios/Crud_Cafeteria/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir
+C:/Programação/Repositorios/Crud_Cafeteria/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Programação/Repositorios/Crud_Cafeteria/cmake-build-debug/CMakeFiles/rebuild_cache.dir
