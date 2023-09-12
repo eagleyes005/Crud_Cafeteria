@@ -4,14 +4,10 @@
 void listProduct (int *currentIndex, productStruct *productsArray) {
 
     // Impressão dos produtos utilizando um loop for onde será impresso até o índice corrente
-    printf("Código:\t\tNome do Produto:\tPreço:\t\tQuantidade:\t\tTotal:\n");
+    printf("%-10s%-30s%-10s%-20s%-10s\n", "Código:", "Nome do Produto:", "Preço:", "Quantidade:", "Total:");
     for (int i = 0; i < *currentIndex; i++) {
         float total = productsArray[i].price * productsArray[i].amount;
-        printf("%d\t\t"
-               "%s\t\t"
-               "R$ %.2f\t\t"
-               "%d\t\t"
-               "R$ %.2f\t\t\n",
+        printf("%-10d%-30s%-10.2f%-20d%-10.2f\n",
                productsArray[i].cod,
                productsArray[i].name,
                productsArray[i].price,

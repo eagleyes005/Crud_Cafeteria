@@ -1,6 +1,4 @@
 #include "global.h"
-//TODO adicionar verificar de duplicidade
-//TODO adicionar alocação dinâmica de memória
 
 //Função para registrar produtos
 void registerProduct (int *currentIndex, productStruct *productsArray) {

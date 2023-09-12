@@ -1,7 +1,7 @@
 #include "global.h"
 
 // Função para editar produtos
-void editProduct(const int *productsQty, productStruct *productsArray) {
+void editProduct(const int *currentIndex, productStruct *productsArray) {
     int toEdit, index = -1, switchOption;
 
     // Input para escolher qual item do array será editado
@@ -9,7 +9,7 @@ void editProduct(const int *productsQty, productStruct *productsArray) {
     scanf("%d", &toEdit);
 
     // Loop for para encontrar o endereço do item a ser editado
-    for (int i = 0; i < *productsQty; ++i) {
+    for (int i = 0; i < *currentIndex; ++i) {
         if (productsArray[i].cod == toEdit) {
             index = i; // Quando o mesmo é encontrado este é salvo na variável index para uso posterior
             break;

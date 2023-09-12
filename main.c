@@ -59,13 +59,13 @@ int main() {
             case 3:
                 system("cls");
                 // Verifica se existe algum produto no array
-                if (*ptrProductsQty == 0) {
+                if (*ptrCurrentIndex == 0) {
                     printf("Não há produtos para serem editados!\n");
                     sleep(2);
                     break;
                 }
                 listProduct(ptrCurrentIndex, ptrProductsArray);
-                editProduct(ptrProductsQty, ptrProductsArray);
+                editProduct(ptrCurrentIndex, ptrProductsArray);
                 system("cls");
                 break;
 
@@ -73,13 +73,13 @@ int main() {
             case 4:
                 system("cls");
                 // Verifica se existe algum produto no array
-                if (*ptrProductsQty == 0) {
+                if (*ptrCurrentIndex == 0) {
                     printf("Não há produtos para serem excluídos!\n");
                     sleep(2);
                     break;
                 }
                 listProduct(ptrCurrentIndex, ptrProductsArray);
-                deleteProduct(ptrProductsQty, ptrProductsArray);
+                deleteProduct(ptrCurrentIndex, ptrProductsArray);
                 system("cls");
                 break;
 
