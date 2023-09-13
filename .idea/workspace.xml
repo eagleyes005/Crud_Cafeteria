@@ -24,14 +24,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir/main.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Crud_Cafeteria.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Crud_Cafeteria.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deleteProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/deleteProduct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/editProduct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/listProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/listProduct.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registerProduct.c" beforeDir="false" afterPath="$PROJECT_DIR$/registerProduct.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +94,7 @@
       <workItem from="1693316389111" duration="8314000" />
       <workItem from="1693329401740" duration="13000" />
       <workItem from="1694523542283" duration="2631000" />
+      <workItem from="1694608192151" duration="2440000" />
     </task>
     <servers />
   </component>

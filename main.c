@@ -8,7 +8,7 @@ int main() {
     ptrProductsQty = &productsQty;
     ptrCurrentIndex = &currentIndex;
 
-    // Aloca memória dinamicamente para o array de estruturas
+    // Aloca memória com a quantidade de definida
     productStruct *ptrProductsArray = (productStruct *)malloc(*ptrProductsQty * sizeof(productStruct));
 
     // Se não conseguir alocar dará erro antes de iniciar o sistema
