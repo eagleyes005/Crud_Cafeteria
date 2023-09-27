@@ -1,3 +1,0 @@
-C:/Users/Samuel/Desktop/Crud_Cafeteria/cmake-build-debug/CMakeFiles/Crud_Cafeteria.dir
-C:/Users/Samuel/Desktop/Crud_Cafeteria/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Samuel/Desktop/Crud_Cafeteria/cmake-build-debug/CMakeFiles/rebuild_cache.dir

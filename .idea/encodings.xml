@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/deleteProduct.c" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/editProduct.c" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/global.h" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/listProduct.c" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/main.c" charset="ISO-8859-1" />
-    <file url="file://$PROJECT_DIR$/registerProduct.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/global.h" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/menus/menuMain.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/menus/menuOrders.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/menus/menuProducts.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/orders/deleteOrder.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/orders/listOrders.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/orders/registerOrder.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/products/deleteProduct.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/products/editProduct.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/products/listProduct.c" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/products/registerProduct.c" charset="ISO-8859-1" />
+    <file url="PROJECT" charset="ISO-8859-1" />
   </component>
 </project>
