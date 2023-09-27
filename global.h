@@ -11,7 +11,7 @@
 #ifndef GLOBAL_H
 #define GLOBAL_H
 
-#define MAX_LENGTH 50
+#define MAX_LENGTH 30
 
 //Define um tipo de struct denominado productStruct
 typedef struct {
